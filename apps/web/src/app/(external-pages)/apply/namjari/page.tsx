@@ -180,7 +180,7 @@ export default function NamjariPage() {
             </label>
             <input type="text" placeholder="Deed Dag number" />
             <p className="text-xs text-gray-500" style={{ fontFamily: 'var(--font-hind)' }}>
-              যদি Dag মিল না => রিজেক্ট
+              If Deed Dag number doesn't match: Reject
             </p>
           </div>
           <div>

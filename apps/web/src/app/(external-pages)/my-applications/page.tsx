@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { Shield, MessageCircle, CheckCircle, DocumentText, Clock, History, Users } from 'lucide-react';
-import { BottomNav } from '@/components/bottom-nav';
+import BottomNav from '@/components/bottom-nav';
 
 export default function MyApplicationsPage() {
   const [apps, setApps] = useState([]);

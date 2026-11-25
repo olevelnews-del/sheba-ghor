@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { CheckCircle2, FileText, MessageCircle, AlertCircle, Shield } from 'lucide-react';
 import { useCopyToClipboard } from '@/hooks/use-shebaghor';
 import { useFileUpload } from '@/hooks/use-shebaghor';
-import { BottomNav } from '@/components/bottom-nav';
+import BottomNav from '@/components/bottom-nav';
 
 export default function NidCorrectionPage() {
   const [step, setStep] = useState(0);
